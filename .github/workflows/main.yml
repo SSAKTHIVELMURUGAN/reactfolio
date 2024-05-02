@@ -33,3 +33,11 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SOURCE_DIR: 'build'
+
+    - name: Open S3 website in new tab
+      run: |
+        echo "<script>window.open('http://sakthivel-murugan-portfolio-react-721221106084.s3-website.ap-south-1.amazonaws.com', '_blank');</script>" > open_tab.html
+      shell: bash
+
+    - name: Display open_tab.html
+      run: cat open_tab.html

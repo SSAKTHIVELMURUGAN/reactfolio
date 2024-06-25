@@ -17,7 +17,6 @@ This project is a dynamic portfolio application built using React.js, designed t
 - React.js
 - AWS (EC2, S3, EKS)
 - Docker
-- Kubernetes
 - GitHub Actions
 - CI/CD
 - Git

@@ -2,8 +2,7 @@
 
 ## Description
 
-This project is a dynamic portfolio application built using React.js, designed to showcase projects and skills. It includes a robust DevOps pipeline for seamless deployment and automation using AWS services and containerization technologies.
-
+This project is a dynamic portfolio application built using React.js, designed to showcase projects and skills. Initially, this is not my own coded app; it utilizes a React template to gain hands-on experience in the role of DevOps within a React application. The portfolio includes a robust DevOps pipeline for seamless deployment and automation using AWS services and containerization technologies.
 ## Key Features
 
 - **Dynamic Portfolio**: Built with React.js to display projects and skills dynamically.
